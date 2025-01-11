@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    background-color: #d99fee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+}
+
+.score {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.score div{
+    width: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score div h1 {
+    color: white;
+}
+
+.field {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-image: url("../Vysotskaya_Anna_Web_HW3/assets/field_v9.png");
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+}
+
+.x:hover {
+    background-image: url("../Vysotskaya_Anna_Web_HW3/assets/x.png");
+    opacity: .2;
+}
+
+.o:hover {
+    background-image: url("../Vysotskaya_Anna_Web_HW3/assets/o.png");
+    opacity: .2;
+}

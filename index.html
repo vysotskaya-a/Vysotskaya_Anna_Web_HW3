@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="board">
+        <div class="score">
+            <img src="./assets/x.png" alt="x" width="50px" height="50px">
+            <div>
+                <h1 class="xScore">0</h1>
+                <h1>:</h1>
+                <h1 class="oScore">0</h1>
+            </div>
+            <img src="./assets/o.png" alt="o" width="50px" height="50px">
+        </div>
+
+        <div class="field">
+            <button class="A1 btn" onclick="Move(this)"></button>
+            <button class="A2 btn" onclick="Move(this)"></button>
+            <button class="A3 btn" onclick="Move(this)"></button>
+            <button class="B1 btn" onclick="Move(this)"></button>
+            <button class="B2 btn" onclick="Move(this)"></button>
+            <button class="B3 btn" onclick="Move(this)"></button>
+            <button class="C1 btn" onclick="Move(this)"></button>
+            <button class="C2 btn" onclick="Move(this)"></button>
+            <button class="C3 btn" onclick="Move(this)"></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
